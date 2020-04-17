@@ -19,33 +19,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Kyutae's website</title>
-    <meta name="author" content="Lee Kyutae" />
-    <style>
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 25px;
-      }
-    </style>
+    <meta name="author" content="Lee, Kyutae" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <p>I'm Kyutae.</p>
-    <ul>
-      <li><a href="https://github.com/gorisanson">GitHub</a></li>
-      <li>
-        <a href="./quoridor-ai/">Quoridor AI</a> - Play Quoridor against an AI
-        agent developed by me.
-      </li>
-      <li>
-        <a href="./pikachu-volleyball/en/">Pikachu Volleyball</a> - Pikachu
-        Volleyball implemented into JavaScript by reverse engineering the
-        original game.
-      </li>
-      <li>
-        <a href="./pikachu-volleyball-p2p-online/en/"
-          >Pikachu Volleyball P2P Online</a
-        >
-        - Pikachu Volleyball peer-to-peer online via WebRTC data channels.
-      </li>
-    </ul>
+    <div class="flex-box margin-top-2 margin-bottom-2">
+      <h1 class="margin-bottom-2">I'm Kyutae.</h1>
+      <a href="https://github.com/gorisanson">
+        <img
+          class="github-mark"
+          alt="GitHub Mark"
+          src="images/GitHub-Mark-64px.png"
+      /></a>
+    </div>
+    <div class="flex-box">
+      <h2>My personal projects</h2>
+      <ul>
+        <li>
+          <a href="./quoridor-ai/">Play Quoridor against AI</a> - Quoridor AI
+          which I developed.
+        </li>
+        <li>
+          <a href="./pikachu-volleyball/en/">Pikachu Volleyball</a> - Pikachu
+          Volleyball implemented into JavaScript by reverse engineering the
+          original game.
+        </li>
+        <li>
+          <a href="./pikachu-volleyball-p2p-online/en/"
+            >Pikachu Volleyball P2P Online</a
+          >
+          - Pikachu Volleyball peer-to-peer online via WebRTC data channels.
+        </li>
+      </ul>
+    </div>
   </body>
 </html>
