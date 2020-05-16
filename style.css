@@ -33,6 +33,11 @@ h2 {
 }
 img.github-mark {
   width: 60px;
+  margin: 20px;
+}
+img.so-icon,
+img.twitter-logo {
+  width: 100px;
 }
 .flex-box {
   display: flex;
@@ -46,6 +51,9 @@ img.github-mark {
   height: auto;
   overflow: visible;
   text-align: left;
+}
+.flex-box.horizontal {
+  flex-direction: row;
 }
 .margin-top-2 {
   margin-top: 2rem;
