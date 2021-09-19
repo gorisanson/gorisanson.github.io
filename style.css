@@ -20,7 +20,7 @@ html {
 }
 body {
   font-size: 1rem;
-  color: #202124;
+  color: #232629;
 }
 h1 {
   font-size: 1.5rem;
@@ -69,4 +69,17 @@ ul {
 li {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+a {
+  color: #0074cc;
+  text-decoration: none;
+}
+a:visited {
+  color: #0063bf;
+}
+a:hover {
+  color: #0a95ff;
+}
+a:active {
+  color: #0a95ff;
 }
