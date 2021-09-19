@@ -32,6 +32,18 @@ h2 {
   margin-top: 0;
   margin-bottom: 0;
 }
+a,
+a:link,
+a:visited {
+  color: #0074cc;
+  text-decoration: none;
+}
+a:hover {
+  color: #0a95ff;
+}
+a:active {
+  color: #0a95ff;
+}
 img.github-mark {
   width: 60px;
   margin: 20px;
@@ -72,17 +84,4 @@ li {
 }
 .projects-list {
   max-width: 30rem;
-}
-a {
-  color: #0074cc;
-  text-decoration: none;
-}
-a:visited {
-  color: #0063bf;
-}
-a:hover {
-  color: #0a95ff;
-}
-a:active {
-  color: #0a95ff;
 }
