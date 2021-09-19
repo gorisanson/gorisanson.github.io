@@ -70,6 +70,9 @@ li {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+.projects-list {
+  max-width: 30rem;
+}
 a {
   color: #0074cc;
   text-decoration: none;
