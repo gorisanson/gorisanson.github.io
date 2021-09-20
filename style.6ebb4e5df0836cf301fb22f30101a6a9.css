@@ -46,11 +46,13 @@ a:active {
 }
 img.github-mark {
   width: 60px;
+  height: auto;
   margin: 20px;
 }
 img.so-icon,
 img.twitter-logo {
   width: 100px;
+  height: auto;
 }
 .flex-box {
   display: flex;
