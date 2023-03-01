@@ -133,7 +133,7 @@ li {
 .projects-list {
   max-width: 30rem;
 }
-div.container-for-margin {
+div.for-margin {
   min-height: 50vh;
   width: 100%;
 }
@@ -212,4 +212,4 @@ input.toggle-switch:checked + label::before {
 }
 
 
-/*# sourceMappingURL=dark_color_scheme.d5cae92bf2fa648eebdb.css.map*/
+/*# sourceMappingURL=dark_color_scheme.aa6f8c9f1b38c902d1b8.css.map*/
