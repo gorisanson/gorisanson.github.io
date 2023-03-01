@@ -133,6 +133,10 @@ li {
 .projects-list {
   max-width: 30rem;
 }
+div.for-margin {
+  min-height: 50vh;
+  width: 100%;
+}
 div.color-scheme-toggle-switch-container {
   display: flex;
   justify-content: center;
