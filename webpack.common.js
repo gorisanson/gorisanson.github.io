@@ -9,7 +9,7 @@ module.exports = {
     dark_color_scheme: './src/resources/js/utils/dark_color_scheme.js',
   },
   output: {
-    filename: '[name].[chunkhash].js',
+    filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, 'dist'),
   },
   module: {
