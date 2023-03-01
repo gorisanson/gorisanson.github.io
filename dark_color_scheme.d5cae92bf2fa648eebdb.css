@@ -133,6 +133,10 @@ li {
 .projects-list {
   max-width: 30rem;
 }
+div.container-for-margin {
+  min-height: 50vh;
+  width: 100%;
+}
 div.color-scheme-toggle-switch-container {
   display: flex;
   justify-content: center;
@@ -208,4 +212,4 @@ input.toggle-switch:checked + label::before {
 }
 
 
-/*# sourceMappingURL=dark_color_scheme.2a2f12b5a805b6428f60.css.map*/
+/*# sourceMappingURL=dark_color_scheme.d5cae92bf2fa648eebdb.css.map*/
