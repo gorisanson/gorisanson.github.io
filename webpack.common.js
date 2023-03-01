@@ -28,6 +28,7 @@ module.exports = {
           context: 'src/',
           from: 'resources/images/**/*.png',
         },
+        { context: 'src/', from: 'pikachu-volleyball-online/**/*.html' },
       ],
     }),
     new MiniCssExtractPlugin({
