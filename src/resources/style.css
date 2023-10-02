@@ -9,7 +9,6 @@
   --btn-color: #ffffff;
   --btn-background-color: rgba(50, 50, 50, 1);
   --github-mark-url: url('./images/github-mark.png');
-  --linkedin-logo-url: url('./images/In-Blue-128@2x.png');
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -20,7 +19,6 @@
     --btn-color: #151515;
     --btn-background-color: rgba(232, 232, 232, 1);
     --github-mark-url: url('./images/github-mark-white.png');
-    --linkedin-logo-url: url('./images/In-White-128@2x.png');
   }
 }
 /* Copy of the variables in :root above */
@@ -32,7 +30,6 @@
   --btn-color: #ffffff;
   --btn-background-color: rgba(50, 50, 50, 1);
   --github-mark-url: url('./images/github-mark.png');
-  --linkedin-logo-url: url('./images/In-Blue-128@2x.png');
 }
 /* Copy of the variables in @media (prefers-color-scheme: dark) :root above */
 :root[data-color-scheme='dark'] {
@@ -43,7 +40,6 @@
   --btn-color: #151515;
   --btn-background-color: rgba(232, 232, 232, 1);
   --github-mark-url: url('./images/github-mark-white.png');
-  --linkedin-logo-url: url('./images/In-White-128@2x.png');
 }
 /* size of iPad screen is 768px x 1024px in portrait mode */
 @media only screen and (min-width: 768px) and (min-height: 768px) {
@@ -98,17 +94,11 @@ img.twitter-logo {
   width: 100px;
   height: auto;
 }
-img.linkedin-logo {
-  content: var(--linkedin-logo-url);
-  width: 60px;
-  height: auto;
-  margin: 20px;
-}
 .flex-box {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
   font-size: 1rem;
   padding-left: 1rem;
@@ -119,10 +109,6 @@ img.linkedin-logo {
 }
 .flex-box.horizontal {
   flex-direction: row;
-}
-.flex-box.no-wrap {
-  flex-wrap: nowrap;
-  padding: 0;
 }
 .margin-top-1 {
   margin-top: 1rem;
