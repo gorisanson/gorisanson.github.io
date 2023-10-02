@@ -96,9 +96,9 @@ img.twitter-logo {
 }
 .flex-box {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   align-items: center;
   font-size: 1rem;
   padding-left: 1rem;
