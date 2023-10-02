@@ -9,7 +9,6 @@
   --btn-color: #ffffff;
   --btn-background-color: rgba(50, 50, 50, 1);
   --github-mark-url: url(3524c849ab38de4be923.png);
-  --linkedin-logo-url: url(1491f15f814d70e025c9.png);
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -20,7 +19,6 @@
     --btn-color: #151515;
     --btn-background-color: rgba(232, 232, 232, 1);
     --github-mark-url: url(925aa8e685ab0217bb34.png);
-    --linkedin-logo-url: url(44a86b5e1a09bc7bed86.png);
   }
 }
 /* Copy of the variables in :root above */
@@ -32,7 +30,6 @@
   --btn-color: #ffffff;
   --btn-background-color: rgba(50, 50, 50, 1);
   --github-mark-url: url(3524c849ab38de4be923.png);
-  --linkedin-logo-url: url(1491f15f814d70e025c9.png);
 }
 /* Copy of the variables in @media (prefers-color-scheme: dark) :root above */
 :root[data-color-scheme='dark'] {
@@ -43,7 +40,6 @@
   --btn-color: #151515;
   --btn-background-color: rgba(232, 232, 232, 1);
   --github-mark-url: url(925aa8e685ab0217bb34.png);
-  --linkedin-logo-url: url(44a86b5e1a09bc7bed86.png);
 }
 /* size of iPad screen is 768px x 1024px in portrait mode */
 @media only screen and (min-width: 768px) and (min-height: 768px) {
@@ -98,12 +94,6 @@ img.twitter-logo {
   width: 100px;
   height: auto;
 }
-img.linkedin-logo {
-  content: var(--linkedin-logo-url);
-  width: 60px;
-  height: auto;
-  margin: 20px;
-}
 .flex-box {
   display: flex;
   flex-wrap: wrap;
@@ -119,10 +109,6 @@ img.linkedin-logo {
 }
 .flex-box.horizontal {
   flex-direction: row;
-}
-.flex-box.no-wrap {
-  flex-wrap: nowrap;
-  padding: 0;
 }
 .margin-top-1 {
   margin-top: 1rem;
@@ -226,4 +212,4 @@ input.toggle-switch:checked + label::before {
 }
 
 
-/*# sourceMappingURL=dark_color_scheme.2e40beffe4d11eb4bd85.css.map*/
+/*# sourceMappingURL=dark_color_scheme.2870919c6df2a464c2ed.css.map*/
