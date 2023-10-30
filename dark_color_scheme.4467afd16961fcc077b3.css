@@ -131,7 +131,11 @@ li {
   margin-bottom: 1rem;
 }
 .projects-list {
+  width: 100%;
   max-width: 30rem;
+}
+.text-align-center {
+  text-align: center;
 }
 div.for-margin {
   min-height: 50vh;
@@ -212,4 +216,4 @@ input.toggle-switch:checked + label::before {
 }
 
 
-/*# sourceMappingURL=dark_color_scheme.2870919c6df2a464c2ed.css.map*/
+/*# sourceMappingURL=dark_color_scheme.4467afd16961fcc077b3.css.map*/
