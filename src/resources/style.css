@@ -131,7 +131,11 @@ li {
   margin-bottom: 1rem;
 }
 .projects-list {
+  width: 100%;
   max-width: 30rem;
+}
+.text-align-center {
+  text-align: center;
 }
 div.for-margin {
   min-height: 50vh;
