@@ -9,6 +9,7 @@
   --btn-color: #ffffff;
   --btn-background-color: rgba(50, 50, 50, 1);
   --github-mark-url: url('./images/github-mark.png');
+  --x-logo-url: url('./images/x-logo-black.png');
   --linkedin-logo-url: url('./images/In-Blue-128@2x.png');
 }
 @media (prefers-color-scheme: dark) {
@@ -20,6 +21,7 @@
     --btn-color: #151515;
     --btn-background-color: rgba(232, 232, 232, 1);
     --github-mark-url: url('./images/github-mark-white.png');
+    --x-logo-url: url('./images/x-logo-white.png');
     --linkedin-logo-url: url('./images/In-White-128@2x.png');
   }
 }
@@ -32,6 +34,7 @@
   --btn-color: #ffffff;
   --btn-background-color: rgba(50, 50, 50, 1);
   --github-mark-url: url('./images/github-mark.png');
+  --x-logo-url: url('./images/x-logo-black.png');
   --linkedin-logo-url: url('./images/In-Blue-128@2x.png');
 }
 /* Copy of the variables in @media (prefers-color-scheme: dark) :root above */
@@ -43,6 +46,7 @@
   --btn-color: #151515;
   --btn-background-color: rgba(232, 232, 232, 1);
   --github-mark-url: url('./images/github-mark-white.png');
+  --x-logo-url: url('./images/x-logo-white.png');
   --linkedin-logo-url: url('./images/In-White-128@2x.png');
 }
 /* size of iPad screen is 768px x 1024px in portrait mode */
@@ -93,10 +97,15 @@ img.github-mark {
   height: auto;
   margin: 20px;
 }
-img.so-icon,
-img.twitter-logo {
+img.so-icon {
   width: 100px;
   height: auto;
+}
+img.x-logo {
+  content: var(--x-logo-url);
+  width: 44px;
+  height: auto;
+  margin: 28px;
 }
 img.linkedin-logo {
   content: var(--linkedin-logo-url);
